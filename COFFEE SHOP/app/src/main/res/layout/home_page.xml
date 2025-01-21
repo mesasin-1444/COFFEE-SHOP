@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_brown"
+    android:padding="16dp">
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@android:color/transparent"
+        android:text="@string/back"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:src="@drawable/homepage"
+        android:contentDescription="@string/coffee_cart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_the_best_coffee_in_the_town1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login1"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="@color/white"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/facebook_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:text="@string/connect_with_facebook1"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

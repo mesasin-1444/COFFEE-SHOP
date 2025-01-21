@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Coffee Shop</string>
+    <string name="get_the_best_coffee_in_the_town" />
+    <string name="login" />
+    <string name="login2">Login</string>
+    <string name="register2">Register</string>
+    <string name="connect_with_facebook">Connect with facebook</string>
+    <string name="get_the_best_coffee_in_the_town2">Get the best coffee in the town!</string>
+    <string name="coffee_cart">Coffee Cart</string>
+    <string name="get_the_best_coffee_in_the_town1">Get the best coffee in the town!</string>
+    <string name="register">Register</string>
+    <string name="login1">Login</string>
+    <string name="connect_with_facebook1">Connect with Facebook</string>
+    <string name="password">Password</string>
+    <string name="register1">Register</string>
+    <string name="username">Username</string>
+    <string name="back">Back</string>
+    <string name="coffee_cart1">Coffee Cart</string>
+    <string name="email">Email</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="password2">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email1">Email</string>
+</resources>

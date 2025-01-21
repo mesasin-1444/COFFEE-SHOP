@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_brown"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@android:color/transparent"
+        android:text="@string/back"
+        android:textColor="#FFFFFFFF" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/coffee_cart1"
+        android:src="@drawable/slide"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <EditText
+        android:id="@+id/username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/username"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFFFFFF"
+        android:autofillHints=""/>
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:hint="@string/email"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFFFFFF"
+        android:inputType="TODO" />
+    <EditText
+        android:id="@+id/password_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFFFFFF" />
+
+
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register1"
+        android:layout_marginTop="16dp"
+        app:backgroundTint="@color/white"
+        android:textColor="@color/black" />
+
+</LinearLayout>
